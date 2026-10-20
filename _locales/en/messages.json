@@ -1,0 +1,251 @@
+{
+  "extName": {
+    "message": "WebDeBloater",
+    "description": "Extension name"
+  },
+  "extShortName": {
+    "message": "WebDeBloater",
+    "description": "Extension short name"
+  },
+  "extDescription": {
+    "message": "Blocks annoying banners like 'Open in app', 'Download app' and similar on all websites.",
+    "description": "Extension description"
+  },
+
+  "popup_title": {
+    "message": "WebDeBloater"
+  },
+  "popup_enabled": {
+    "message": "Enabled"
+  },
+  "popup_disabled": {
+    "message": "Disabled"
+  },
+  "popup_enabled_desc": {
+    "message": "Blocks \"Open in app\" banners and similar"
+  },
+  "popup_session_removed": {
+    "message": "This session"
+  },
+  "popup_total_removed": {
+    "message": "Total removed"
+  },
+  "popup_whitelist_domain": {
+    "message": "This site:"
+  },
+  "popup_whitelist_on": {
+    "message": "Whitelisted"
+  },
+  "popup_whitelist_off": {
+    "message": "Not whitelisted"
+  },
+  "popup_whitelist_hint": {
+    "message": "Banners won't be blocked on this domain"
+  },
+  "popup_options": {
+    "message": "Options"
+  },
+  "popup_update_selectors": {
+    "message": "Update selectors"
+  },
+  "popup_updating": {
+    "message": "Updating..."
+  },
+  "popup_updated": {
+    "message": "Updated!"
+  },
+  "popup_update_failed": {
+    "message": "Failed"
+  },
+
+  "options_title": {
+    "message": "WebDeBloater - Options"
+  },
+  "options_subtitle": {
+    "message": "Configure blocking of \"Open in app\" banners"
+  },
+  "options_tab_general": {
+    "message": "General"
+  },
+  "options_tab_selectors": {
+    "message": "Selectors"
+  },
+  "options_tab_whitelist": {
+    "message": "Whitelist"
+  },
+  "options_tab_advanced": {
+    "message": "Advanced"
+  },
+  "options_tab_about": {
+    "message": "About"
+  },
+
+  "options_general_settings": {
+    "message": "General Settings"
+  },
+  "options_enabled": {
+    "message": "Extension enabled"
+  },
+  "options_enabled_desc": {
+    "message": "Enable/disable banner blocking globally"
+  },
+  "options_auto_update": {
+    "message": "Auto-update selectors"
+  },
+  "options_auto_update_desc": {
+    "message": "Download new selectors from GitHub every 24 hours"
+  },
+  "options_show_badge": {
+    "message": "Show badge count"
+  },
+  "options_show_badge_desc": {
+    "message": "Show number of blocked badges on the icon"
+  },
+
+  "options_stats": {
+    "message": "Statistics"
+  },
+  "options_total_removed": {
+    "message": "Total removed"
+  },
+  "options_session_removed": {
+    "message": "Current session"
+  },
+  "options_domains_visited": {
+    "message": "Domains visited"
+  },
+  "options_reset_stats": {
+    "message": "Reset statistics"
+  },
+
+  "options_custom_selectors": {
+    "message": "Custom Selectors"
+  },
+  "options_custom_selectors_desc": {
+    "message": "Add CSS selectors for banners not yet covered"
+  },
+  "options_selector_placeholder": {
+    "message": ".my-banner-class, #my-banner-id"
+  },
+  "options_add_selector": {
+    "message": "Add"
+  },
+  "options_builtin_selectors": {
+    "message": "Built-in Selectors"
+  },
+  "options_builtin_selectors_desc": {
+    "message": "These selectors are bundled with the extension and auto-updated"
+  },
+  "options_force_update": {
+    "message": "Force update"
+  },
+  "options_view_selectors": {
+    "message": "View selectors"
+  },
+  "options_updating": {
+    "message": "Updating..."
+  },
+  "options_updated": {
+    "message": "Updated!"
+  },
+  "options_update_failed": {
+    "message": "Failed"
+  },
+
+  "options_whitelist": {
+    "message": "Whitelisted Domains"
+  },
+  "options_whitelist_desc": {
+    "message": "Banners won't be blocked on these domains"
+  },
+  "options_whitelist_placeholder": {
+    "message": "example.com"
+  },
+  "options_add": {
+    "message": "Add"
+  },
+  "options_remove": {
+    "message": "Remove"
+  },
+
+  "options_import_export": {
+    "message": "Import/Export Configuration"
+  },
+  "options_export": {
+    "message": "Export JSON"
+  },
+  "options_import": {
+    "message": "Import JSON"
+  },
+  "options_import_success": {
+    "message": "Configuration imported successfully!"
+  },
+  "options_import_error": {
+    "message": "Error importing: "
+  },
+
+  "options_debug": {
+    "message": "Debug"
+  },
+  "options_debug_mode": {
+    "message": "Debug mode"
+  },
+  "options_debug_mode_desc": {
+    "message": "Verbose logging in browser console"
+  },
+  "options_view_logs": {
+    "message": "View logs"
+  },
+
+  "options_danger_zone": {
+    "message": "Danger Zone"
+  },
+  "options_reset_all": {
+    "message": "Reset all"
+  },
+  "options_reset_all_warn": {
+    "message": "This action deletes all settings, whitelist, custom selectors and statistics. Cannot be undone."
+  },
+  "options_confirm_reset": {
+    "message": "Are you sure you want to reset everything?"
+  },
+  "options_reset_done": {
+    "message": "Reset completed!"
+  },
+
+  "options_about": {
+    "message": "About"
+  },
+  "options_version": {
+    "message": "Version"
+  },
+  "options_manifest": {
+    "message": "Manifest"
+  },
+  "options_license": {
+    "message": "License"
+  },
+  "options_author": {
+    "message": "Author"
+  },
+  "options_github": {
+    "message": "GitHub Repository"
+  },
+  "options_report_issue": {
+    "message": "Report an issue"
+  },
+  "options_changelog": {
+    "message": "Changelog"
+  },
+
+  "options_privacy": {
+    "message": "Privacy"
+  },
+  "options_privacy_desc": {
+    "message": "WebDeBloater does not collect, transmit or store personal data. All settings remain on your device. The only network connection is the optional download of updated selectors from GitHub."
+  },
+
+  "options_footer": {
+    "message": "WebDeBloater © 2025 - Open Source"
+  }
+}

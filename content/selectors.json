@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "selectors": [
+    // Generic patterns
+    "[class*=\"app-banner\"]",
+    "[class*=\"app-promo\"]",
+    "[class*=\"app-promotion\"]",
+    "[class*=\"smart-banner\"]",
+    "[class*=\"app-install-banner\"]",
+    "[class*=\"open-in-app\"]",
+    "[class*=\"mobile-app-banner\"]",
+    "[id*=\"app-banner\"]",
+    "[id*=\"smart-banner\"]",
+    "[data-testid*=\"app-banner\"]",
+    "[data-testid*=\"smart-banner\"]",
+
+    // Reddit
+    ".reddit-app-banner",
+    "[data-testid=\"app-install-banner\"]",
+    "shreddit-app-banner",
+
+    // Twitter/X
+    "[data-testid=\"app-banner\"]",
+    "[data-testid=\"download-app-banner\"]",
+    "div[style*=\"position: fixed\"][style*=\"bottom: 0\"] > div:has-text(\"Apri l'app\")",
+
+    // Instagram
+    "._ab8w._ab94._ab99._ab9f._ab9k._ab9p._abcm",
+    "[class*=\"x1lliihq\"][class*=\"x1n2onr6\"]",
+
+    // TikTok
+    ".tiktok-app-banner",
+    "[class*=\"DivDownloadGuide\"]",
+    "[data-e2e=\"download-guide\"]",
+
+    // LinkedIn
+    ".app-promotion-banner",
+    "[data-test-app-banner]",
+
+    // Pinterest
+    "[data-test-id=\"app-banner\"]",
+    ".appBanner",
+
+    // Medium
+    ".app-banner-container",
+    "[data-action=\"app-banner\"]",
+
+    // Quora
+    ".app_banner",
+    "#app_banner",
+
+    // Stack Overflow
+    "#js-gdpr-consent-banner .app-promo",
+    ".js-dismissable-app-banner",
+
+    // GitHub
+    ".octocat-spinner-app-banner",
+    "[data-app-banner]",
+
+    // YouTube
+    "ytd-app-promotion-banner-renderer",
+    "#app-promotion-banner",
+
+    // Twitch
+    "[data-a-target=\"app-install-banner\"]",
+    ".tw-app-banner",
+
+    // Discord
+    ".appBanner-",
+    "[class*=\"appBanner_\"]",
+
+    // Spotify
+    "[data-testid=\"app-banner\"]",
+    ".banner-app",
+
+    // SoundCloud
+    ".mobileAppBanner",
+
+    // Tumblr
+    ".app_banner",
+
+    // Vimeo
+    "[data-app-banner]",
+
+    // Dribbble
+    ".dribbble-app-banner",
+
+    // Behance
+    ".app-promotion-banner",
+
+    // Notion
+    ".notion-app-banner",
+
+    // Figma
+    "[data-app-banner]",
+
+    // Canva
+    ".app-banner",
+
+    // Trello
+    ".app-promo-banner",
+
+    // Slack
+    "#slack-app-banner",
+    ".p-app_banner",
+
+    // Telegram Web
+    ".tgme_app_banner",
+
+    // WhatsApp Web
+    "[data-testid=\"app-banner\"]",
+
+    // Messenger
+    "[class*=\"AppBanner\"]",
+
+    // Generic cookie consent banners with app links
+    "[class*=\"cookie\"][class*=\"banner\"] a[href*=\"app\"]",
+    "[class*=\"consent\"][class*=\"banner\"] a[href*=\"app\"]",
+    "[id*=\"cookie\"][id*=\"banner\"] a[href*=\"app\"]"
+  ]
+}

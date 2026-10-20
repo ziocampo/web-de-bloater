@@ -1,0 +1,251 @@
+{
+  "extName": {
+    "message": "WebDeBloater",
+    "description": "Extension name"
+  },
+  "extShortName": {
+    "message": "WebDeBloater",
+    "description": "Extension short name"
+  },
+  "extDescription": {
+    "message": "Blocca banner fastidiosi come 'Apri nell'app', 'Scarica l'app' e simili su tutti i siti web.",
+    "description": "Extension description"
+  },
+
+  "popup_title": {
+    "message": "WebDeBloater"
+  },
+  "popup_enabled": {
+    "message": "Attivo"
+  },
+  "popup_disabled": {
+    "message": "Disattivo"
+  },
+  "popup_enabled_desc": {
+    "message": "Blocca banner \"Apri nell'app\" e simili"
+  },
+  "popup_session_removed": {
+    "message": "Questa sessione"
+  },
+  "popup_total_removed": {
+    "message": "Totale rimossi"
+  },
+  "popup_whitelist_domain": {
+    "message": "Questo sito:"
+  },
+  "popup_whitelist_on": {
+    "message": "In whitelist"
+  },
+  "popup_whitelist_off": {
+    "message": "Non in whitelist"
+  },
+  "popup_whitelist_hint": {
+    "message": "I banner non verranno bloccati su questo dominio"
+  },
+  "popup_options": {
+    "message": "Impostazioni"
+  },
+  "popup_update_selectors": {
+    "message": "Aggiorna selettori"
+  },
+  "popup_updating": {
+    "message": "Aggiornamento..."
+  },
+  "popup_updated": {
+    "message": "Aggiornato!"
+  },
+  "popup_update_failed": {
+    "message": "Errore"
+  },
+
+  "options_title": {
+    "message": "WebDeBloater - Impostazioni"
+  },
+  "options_subtitle": {
+    "message": "Configura il blocco dei banner \"Apri nell'app\""
+  },
+  "options_tab_general": {
+    "message": "Generale"
+  },
+  "options_tab_selectors": {
+    "message": "Selettori"
+  },
+  "options_tab_whitelist": {
+    "message": "Whitelist"
+  },
+  "options_tab_advanced": {
+    "message": "Avanzate"
+  },
+  "options_tab_about": {
+    "message": "Info"
+  },
+
+  "options_general_settings": {
+    "message": "Impostazioni Generali"
+  },
+  "options_enabled": {
+    "message": "Estensione attiva"
+  },
+  "options_enabled_desc": {
+    "message": "Attiva/disattiva il blocco banner globalmente"
+  },
+  "options_auto_update": {
+    "message": "Aggiornamento automatico selettori"
+  },
+  "options_auto_update_desc": {
+    "message": "Scarica nuovi selettori da GitHub ogni 24 ore"
+  },
+  "options_show_badge": {
+    "message": "Mostra badge conteggio"
+  },
+  "options_show_badge_desc": {
+    "message": "Mostra il numero di banner bloccati sull'icona"
+  },
+
+  "options_stats": {
+    "message": "Statistiche"
+  },
+  "options_total_removed": {
+    "message": "Totale rimossi"
+  },
+  "options_session_removed": {
+    "message": "Sessione corrente"
+  },
+  "options_domains_visited": {
+    "message": "Domini visitati"
+  },
+  "options_reset_stats": {
+    "message": "Reset statistiche"
+  },
+
+  "options_custom_selectors": {
+    "message": "Selettori Personalizzati"
+  },
+  "options_custom_selectors_desc": {
+    "message": "Aggiungi selettori CSS per banner non ancora coperti"
+  },
+  "options_selector_placeholder": {
+    "message": ".mia-classe-banner, #mio-id-banner"
+  },
+  "options_add_selector": {
+    "message": "Aggiungi"
+  },
+  "options_builtin_selectors": {
+    "message": "Selettori Integrati"
+  },
+  "options_builtin_selectors_desc": {
+    "message": "Questi selettori sono inclusi nell'estensione e aggiornati automaticamente"
+  },
+  "options_force_update": {
+    "message": "Forza aggiornamento"
+  },
+  "options_view_selectors": {
+    "message": "Visualizza selettori"
+  },
+  "options_updating": {
+    "message": "Aggiornamento..."
+  },
+  "options_updated": {
+    "message": "Aggiornato!"
+  },
+  "options_update_failed": {
+    "message": "Errore"
+  },
+
+  "options_whitelist": {
+    "message": "Domini in Whitelist"
+  },
+  "options_whitelist_desc": {
+    "message": "Su questi domini i banner non verranno bloccati"
+  },
+  "options_whitelist_placeholder": {
+    "message": "esempio.com"
+  },
+  "options_add": {
+    "message": "Aggiungi"
+  },
+  "options_remove": {
+    "message": "Rimuovi"
+  },
+
+  "options_import_export": {
+    "message": "Importa/Esporta Configurazione"
+  },
+  "options_export": {
+    "message": "Esporta JSON"
+  },
+  "options_import": {
+    "message": "Importa JSON"
+  },
+  "options_import_success": {
+    "message": "Configurazione importata con successo!"
+  },
+  "options_import_error": {
+    "message": "Errore durante l'importazione: "
+  },
+
+  "options_debug": {
+    "message": "Debug"
+  },
+  "options_debug_mode": {
+    "message": "Modalità debug"
+  },
+  "options_debug_mode_desc": {
+    "message": "Log dettagliati nella console del browser"
+  },
+  "options_view_logs": {
+    "message": "Visualizza log"
+  },
+
+  "options_danger_zone": {
+    "message": "Zona Pericolosa"
+  },
+  "options_reset_all": {
+    "message": "Reset completo"
+  },
+  "options_reset_all_warn": {
+    "message": "Questa azione cancella tutte le impostazioni, whitelist, selettori personalizzati e statistiche. Non può essere annullata."
+  },
+  "options_confirm_reset": {
+    "message": "Sei sicuro di voler resettare tutto?"
+  },
+  "options_reset_done": {
+    "message": "Reset completato!"
+  },
+
+  "options_about": {
+    "message": "Informazioni"
+  },
+  "options_version": {
+    "message": "Versione"
+  },
+  "options_manifest": {
+    "message": "Manifest"
+  },
+  "options_license": {
+    "message": "Licenza"
+  },
+  "options_author": {
+    "message": "Autore"
+  },
+  "options_github": {
+    "message": "Repository GitHub"
+  },
+  "options_report_issue": {
+    "message": "Segnala un problema"
+  },
+  "options_changelog": {
+    "message": "Changelog"
+  },
+
+  "options_privacy": {
+    "message": "Privacy"
+  },
+  "options_privacy_desc": {
+    "message": "WebDeBloater non raccoglie, trasmette o memorizza dati personali. Tutte le impostazioni rimangono sul tuo dispositivo. L'unica connessione di rete è il download opzionale dei selettori aggiornati da GitHub."
+  },
+
+  "options_footer": {
+    "message": "WebDeBloater © 2025 - Open Source"
+  }
+}
